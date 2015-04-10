@@ -1,5 +1,7 @@
 # map.c
 
+[![Build Status](https://travis-ci.org/djblue/map.c.svg)](https://travis-ci.org/djblue/map.c)
+
 Basic map written in c. There currently is no hash function because keys
 are expected to be integers, although adding a hashing function would be
 super simple; it just happened for my use case, I didn't need a hash

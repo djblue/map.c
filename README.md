@@ -13,6 +13,14 @@ To build the project, do:
 
     make
 
+# test
+
+All of the tests are in the `main.c` file.
+
+To run all the test, do:
+
+    make test
+
 # methods
 
 Below are all the supported methods of the hash map.
@@ -79,11 +87,3 @@ Check if the map has a given key.
 ```c
 map_has(m, 0);
 ```
-
-# test
-
-All of the tests are in the `main.c` file.
-
-To run all the test, do:
-
-    make test

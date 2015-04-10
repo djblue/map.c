@@ -1,7 +1,6 @@
 CC=gcc
 BIN=main
-CFLAGS=-std=c99 -O3
-
+CFLAGS=-std=c99 -O3 -Wall -pedantic
 
 all: main 
 
